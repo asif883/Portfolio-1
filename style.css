@@ -1,0 +1,99 @@
+header{
+    background-color: #FFF8F3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 700px;
+}
+nav h3{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+.color{
+    color: orange;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+
+
+}
+nav ul{
+    align-items: center;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color:  #474747;
+    font-family: Open Sans;
+    font-size: 20px
+
+}
+.btn1{
+     background-color: #FD6E0A;
+     padding: 15px 20px;
+     border: 0;
+     color: white;
+     font-family: Open Sans;
+     font-size: 20px;
+     font-style: normal;
+     border-radius: 5px;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Profile-pic{
+    width: 450px;
+    
+}
+.greeting{
+    font-family: Open Sans;
+    line-height: 20px;
+    margin-left: 150px;
+    max-width: 500px;
+    
+}
+.greeting-text{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    color: #474747;
+}
+.name{
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    color: #181818;
+}
+.description{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;  
+}
+.btn2{
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-family: Open Sans;
+    font-size: 20px;
+    margin-left: 10px;
+}
