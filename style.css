@@ -63,7 +63,7 @@ nav a{
 }
 .greeting{
     font-family: Open Sans;
-    line-height: 20px;
+    
     margin-left: 150px;
     max-width: 500px;
     
@@ -73,19 +73,23 @@ nav a{
     font-style: normal;
     font-weight: 600;
     color: #474747;
+    margin-bottom: 0;
 }
 .name{
     font-size: 85px;
     font-style: normal;
     font-weight: 700;
     color: #181818;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 .description{
     color: var(--Dark-03, #757575);
     font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;  
+    font-weight: 400;
+    margin-top: 10px;  
 }
 .btn2{
     color: #FD6E0A;
@@ -103,7 +107,7 @@ nav a{
     margin: 130px 0;
     padding: 130px;
 }
-.about-text{
+.Title-text{
     color:  #181818;
     text-align: center;
     font-family: Open Sans;
@@ -120,4 +124,59 @@ nav a{
    font-style: normal;
    font-weight: 400;
    line-height: 30px
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    line-height: 5px;
+}
+.info-title{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+}
+.info-description{
+    color: black;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.what-i-do-description{
+    color: #757575;
+    text-align: center;
+   font-family: Open Sans;
+   font-size: 18px;
+   font-style: normal;
+   padding: 0 130px;
+}
+.experience{
+    display: flex;
+}
+.experience-1{
+    text-align: center;
+    padding: 0 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 0 10px;
+}
+.details{
+    display: flex;
+
+}
+.education-info-container, .experience-container{
+    padding: 0 30px;
+}
+.e-name{
+  color: var(--Dark-02, #474747);
+  font-family: Open Sans;
+  font-size: 30px;
 }
